@@ -10,4 +10,9 @@ a {
     font-family: fantasy;
     font-style: oblique;
     color: antiquewhite;
+
+    &:hover {
+        color: blue;
+        transition: 1s;
+    }
 }
